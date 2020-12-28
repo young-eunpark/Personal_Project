@@ -6,11 +6,11 @@ import java.awt.event.*;
 public class LoginForm extends JFrame{
 	JTextField login = new JTextField(10);
 	JTextField password = new JTextField(10);
-	JLabel login2=new JLabel("ID ÀÔ·Â : ");
-	JLabel password2=new JLabel("ºñ¹Ğ¹øÈ£ ÀÔ·Â : ");
-	JButton button=new JButton("·Î±×ÀÎ");
+	JLabel login2=new JLabel("ID ì…ë ¥ : ");
+	JLabel password2=new JLabel("ë¹„ë°€ë²ˆí˜¸ ì…ë ¥ : ");
+	JButton button=new JButton("ë¡œê·¸ì¸");
 	LoginForm(){
-		setTitle("·Î±×ÀÎ Ã¢");
+		setTitle("ë¡œê·¸ì¸ ì°½");
 		setContentPane(new Form());
 		setSize(300,150);
 		setVisible(true);
