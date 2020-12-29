@@ -1,6 +1,6 @@
 package project;
 
-// LoginForm¿¡¼­ ÇüÅÂ¸¦ °¡Á®¿Í¼­ ¹öÆ°¿¡ ±â´ÉÃß°¡
+// LoginFormì—ì„œ í˜•íƒœë¥¼ ê°€ì ¸ì™€ì„œ ë²„íŠ¼ì— ê¸°ëŠ¥ì¶”ê°€
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,11 +8,11 @@ import java.awt.event.*;
 public class LoginForm2 extends JFrame{
 	TextField login = new TextField(10);
 	TextField password = new TextField(10);
-	JLabel login2=new JLabel("ID ÀÔ·Â : ");
-	JLabel password2=new JLabel("ºñ¹Ğ¹øÈ£ ÀÔ·Â : ");
-	JButton button=new JButton("·Î±×ÀÎ");
+	JLabel login2=new JLabel("ID ì…ë ¥ : ");
+	JLabel password2=new JLabel("ë¹„ë°€ë²ˆí˜¸ ì…ë ¥ : ");
+	JButton button=new JButton("ë¡œê·¸ì¸");
 	LoginForm2(){
-		setTitle("·Î±×ÀÎ Ã¢");
+		setTitle("ë¡œê·¸ì¸ ì°½");
 		setContentPane(new Form2());
 		setSize(300,150);
 		setVisible(true);
@@ -28,7 +28,7 @@ public class LoginForm2 extends JFrame{
 			p1.add(password2);
 			p1.add(password);
 			
-			password.setEchoChar('¡Ü'); //ºñ¹Ğ¹øÈ£´Â º¸ÀÌÁö¾Ê°Ô Ã³¸®
+			password.setEchoChar('â—'); //ë¹„ë°€ë²ˆí˜¸ëŠ” ë³´ì´ì§€ì•Šê²Œ ì²˜ë¦¬
 			
 			JPanel p2=new JPanel();
 			p2.add(button);
@@ -36,9 +36,9 @@ public class LoginForm2 extends JFrame{
 			button.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					JButton b=(JButton)e.getSource();
-					if(b.getText().equals("·Î±×ÀÎ")) {
+					if(b.getText().equals("ë¡œê·¸ì¸")) {
 						JOptionPane jp=new JOptionPane();
-						jp.showMessageDialog(null,"·Î±×ÀÎ ¼º°ø"); //·Î±×ÀÎ ¼º°øÇÏ¸é ¸Ş½ÃÁö¹Ú½º Ãâ·Â
+						jp.showMessageDialog(null,"ë¡œê·¸ì¸ ì„±ê³µ"); //ë¡œê·¸ì¸ ì„±ê³µí•˜ë©´ ë©”ì‹œì§€ë°•ìŠ¤ ì¶œë ¥
 					}
 				}
 			});
