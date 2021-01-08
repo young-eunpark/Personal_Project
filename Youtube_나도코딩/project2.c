@@ -3,6 +3,7 @@
 // 피라미드를 쌓아라 - 프로젝트
 // 유튜브 나도코딩 - C언어 무료 강의(입문부터 게임 개발까지)
 // https://www.youtube.com/watch?v=q6fPjQAzll8
+// 이것은 개인이 작성한 코드이며 영상의 정답과 다를 수 있습니다.
 int main() {
 	int floor;
 
