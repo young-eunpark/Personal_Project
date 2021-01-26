@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /*int main() {
-	// Á¤¿Ã Beginner_Coder -> ¼ıÀÚ»ç°¢Çü1
+	// ì •ì˜¬ Beginner_Coder -> ìˆ«ìì‚¬ê°í˜•1
 	// http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&sca=20
 	int num1;
 	int num2;
 
-	printf("¼ıÀÚ ÀÔ·Â : ");
+	printf("ìˆ«ì ì…ë ¥ : ");
 	scanf_s("%d", &num1);
-	printf("¼ıÀÚ ÀÔ·Â : ");
+	printf("ìˆ«ì ì…ë ¥ : ");
 	scanf_s("%d", &num2);
 
 	int i, j;
@@ -23,7 +23,7 @@
 }*/
 
 void makeSquare(int a, int b) {
-	// ÇÔ¼ö »ç¿ë
+	// í•¨ìˆ˜ ì‚¬ìš©
 	int i, j;
 	int n = 1;
 
@@ -39,9 +39,9 @@ int main() {
 	int num1;
 	int num2;
 
-	printf("¼ıÀÚ ÀÔ·Â : ");
+	printf("ìˆ«ì ì…ë ¥ : ");
 	scanf_s("%d", &num1);
-	printf("¼ıÀÚ ÀÔ·Â : ");
+	printf("ìˆ«ì ì…ë ¥ : ");
 	scanf_s("%d", &num2);
 
 	makeSquare(num1, num2);
