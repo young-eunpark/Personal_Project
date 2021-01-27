@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /*int main() {
-	// Á¤¿Ã Beginner_Coder -> ¼ıÀÚ»ç°¢Çü2
+	// ì •ì˜¬ Beginner_Coder -> ìˆ«ìì‚¬ê°í˜•2
 	// http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&sca=20
 	int num1;
 	int num2;
 
-	printf("¼ıÀÚÀÔ·Â : ");
+	printf("ìˆ«ìì…ë ¥ : ");
 	scanf_s("%d", &num1);
-	printf("¼ıÀÚÀÔ·Â : ");
+	printf("ìˆ«ìì…ë ¥ : ");
 	scanf_s("%d", &num2);
 
 	int i, j;
@@ -39,7 +39,7 @@ int i, j;
 int arr[101][101];
 
 void fill(int a, int b) {
-	int n = 1; // ÇÔ¼ö »ç¿ë
+	int n = 1; // í•¨ìˆ˜ ì‚¬ìš©
 
 	for (i = 0; i < a; i++) {
 		if (i % 2 == 0) {
@@ -66,9 +66,9 @@ int main() {
 	int num1;
 	int num2;
 
-	printf("¼ıÀÚÀÔ·Â : ");
+	printf("ìˆ«ìì…ë ¥ : ");
 	scanf_s("%d", &num1);
-	printf("¼ıÀÚÀÔ·Â : ");
+	printf("ìˆ«ìì…ë ¥ : ");
 	scanf_s("%d", &num2);
 
 	fill(num1, num2);
