@@ -3,12 +3,11 @@
 /*int main() {
 	int num;
 
-	printf("¼ýÀÚÀÔ·Â : ");
+	printf("숫자입력 : ");
 	scanf_s("%d", &num);
 
 	int i,j;
 	int n = 1;
-	int arr[101][101];
 	for (i = 0; i < num; i++) {
 		for (j = 0; j < num; j++) {
 			printf("%2d", (i + n) + (num * j));
@@ -30,7 +29,7 @@ void makeSquare(int a) {
 int main() {
 	int num;
 
-	printf("¼ýÀÚÀÔ·Â : ");
+	printf("숫자입력 : ");
 	scanf_s("%d", &num);
 
 	makeSquare(num);
