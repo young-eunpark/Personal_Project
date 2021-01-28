@@ -3,7 +3,7 @@
 /*int main() {
 	int num;
 
-	printf("¼ıÀÚÀÔ·Â : ");
+	printf("Â¼Ã½Ã€ÃšÃ€Ã”Â·Ã‚ : ");
 	scanf_s("%d", &num);
 
 	int i,j;
@@ -30,7 +30,7 @@ void makeSquare(int a) {
 int main() {
 	int num;
 
-	printf("¼ıÀÚÀÔ·Â : ");
+	printf("Â¼Ã½Ã€ÃšÃ€Ã”Â·Ã‚ : ");
 	scanf_s("%d", &num);
 
 	makeSquare(num);
