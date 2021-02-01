@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 /*int main() {
+// 정올 Beginner_Coder -> 숫자사각형3
+	// http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&sca=20
 	int num;
 
 	printf("숫자입력 : ");
