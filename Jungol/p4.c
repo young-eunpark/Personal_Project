@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main() {
-	// Á¤¿Ã Beginner_Coder -> ¼ıÀÚ»ç°¢Çü4
+	// ì •ì˜¬ Beginner_Coder -> ìˆ«ìì‚¬ê°í˜•4
 	// http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&sca=20
 	int num1;
 	int kinds;
 
-	printf("Á¾·ù ¼±ÅÃ : 1, 2, 3 Áß ÇÏ³ª ¼±ÅÃ\n\n");
-	printf("¼ıÀÚÀÔ·Â : ");
+	printf("ì¢…ë¥˜ ì„ íƒ : 1, 2, 3 ì¤‘ í•˜ë‚˜ ì„ íƒ\n\n");
+	printf("ìˆ«ìì…ë ¥ : ");
 	scanf_s("%d", &num1);
-	printf("Á¾·ùÀÔ·Â : ");
+	printf("ì¢…ë¥˜ì…ë ¥ : ");
 	scanf_s("%d", &kinds);
 
 	int i, j;
